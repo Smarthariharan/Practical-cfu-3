@@ -1,0 +1,29 @@
+body {
+  font-family: Outfit;
+  font-weight: 300, 400, 600;
+  font-size: 18px;
+  background-color: var(--Very-dark-blue);
+}
+:root {
+  --Very-dark-blue: hsl(217, 54%, 11%);
+  --Verydark-blue: hsl(216, 50%, 16%);
+  --Very-darkblue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+}
+.sec {
+  display: flex;
+  width: 80%;
+  height: 650px;
+  /* background-color: red; */
+  margin-top: 140px;
+  margin-left: 140px;
+}
+.part-1 {
+  display: inline-flex;
+}
+.part-2 {
+  display: flex;
+  background-color: black;
+}
